@@ -3,14 +3,19 @@
 This repository contains a comprehensive implementation of food recognition using state-of-the-art deep learning models, including YOLOv5 and YOLOv8. The project integrates object detection, image classification, and semantic segmentation, tailored specifically for food-related applications.
 
 ## Table of Contents
+- [Architechture Image](#Architechure)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Models](#models)
 - [Dataset](#dataset)
 - [Implementation Details](#implementation-details)
+- [Prediction Results](#Prediction-Results)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Working Architechture Model
+![Workflow Image](static/assets/demo/pipeline.png)
 
 ## Features
 - **Object Detection**: Detect food items in images with high accuracy.
@@ -82,7 +87,11 @@ The repository contains multiple implementation versions:
 - **Label Enhancement**: Uses a pretrained EfficientNet-B4 classifier for refining labels related to food items.
 - **Test-Time Augmentation**: Added to enhance the robustness of the web app.
 
-For those interested in earlier versions, check out the `v1` branch.
+## Predition Results
+Here are some examples of the model's predictions:
+![image 1](static/assets/demo/5.jpg)
+![Image 2](static/assets/demo/4.jpg)
+![Image3](static/assets/demo/2.jpg)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
